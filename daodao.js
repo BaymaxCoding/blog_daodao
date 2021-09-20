@@ -2,7 +2,7 @@ function getLocalTime(nS) {
     return new Date(parseInt(nS) * 1000).toLocaleString().replace(/:\d{1,2}$/,' ');
 }
 function getdddata(){
-    var bbsurl = "https://blog-daodao.vercel.app/api?q=0"
+    var bbsurl = "https://blog-daodao-fvqae8b1j-2324996822-qqcom.vercel.app/api?q=0"
 
     var httpRequest = new XMLHttpRequest();//第一步：建立所需的对象
     httpRequest.open('GET', bbsurl, true);//第二步：打开连接  将请求参数写在url中  ps:"./Ptest.php?name=test&nameone=testone"
